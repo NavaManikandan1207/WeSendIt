@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.wesendit.testcases.TC003_UploadSingleFile">
+        <methods>
+          <include name="browserStart"/>
+          <include name="tearDown"/>
+          <include name="UploadFile"/>
+        </methods>
+      </class> <!-- com.wesendit.testcases.TC003_UploadSingleFile -->
+      <class name="com.wesendit.testcases.TC006_MultipleFileDownload">
+        <methods>
+          <include name="browserStart"/>
+          <include name="downloadMultipleFile"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.wesendit.testcases.TC006_MultipleFileDownload -->
+      <class name="com.wesendit.testcases.TC004_UploadMultiFiles">
+        <methods>
+          <include name="browserStart"/>
+          <include name="tearDown"/>
+          <include name="uploadMultiFile"/>
+        </methods>
+      </class> <!-- com.wesendit.testcases.TC004_UploadMultiFiles -->
+      <class name="com.wesendit.testcases.TC005_SingleFileDownload">
+        <methods>
+          <include name="downloadSingleFile"/>
+          <include name="browserStart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.wesendit.testcases.TC005_SingleFileDownload -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
